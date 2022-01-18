@@ -70,7 +70,7 @@ function playRound() {
       playerScore++;
       div1.innerText = 'Player:' + playerScore + '- CPU:' + computerScore;
     } else if (computerSelection == 'scissors') {
-      div2.innerText = 'It\s a tie!';
+      div2.innerText = 'It\'s a tie!';
       div1.innerText = `Player:${playerScore} - CPU:${computerScore}`;
     } else {
       console.log('ERROR')
