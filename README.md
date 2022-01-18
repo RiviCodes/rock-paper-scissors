@@ -1,5 +1,7 @@
 # Rock Paper Scissors
 
+[Live on GitHub Pages](https://rivicodes.github.io/rock-paper-scissors/)
+
 _Just a simple Rock, Paper, Scissors game. Once 5 rounds are played, the winner will be determined by the score._
 
 ### Pre-requirements 📋
