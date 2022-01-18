@@ -1,0 +1,83 @@
+/* Imported fonts */
+
+/* Press Start 2P */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Bungee */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&display=swap');
+
+/* Mochiy Pop P One */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+/* Styles  */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Flexbox test */
+
+/*
+* {
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+}*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: hsl(220, 100%, 72%);
+}
+
+#rps-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 50px;
+  color: hsl(221, 100%, 95%);
+}
+
+#results-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: 'Bungee', cursive;
+  font-size: 38px;
+  color: hsl(221, 100%, 20%);
+}
+
+.round-score {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+}
+
+.score-container, .round-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.round-log {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 40px;
+  color: hsl(48, 100%, 75%);
+}
+
+#buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.rock, .paper, .scissors {
+  font-size: 102px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 30px;
+  padding: 8px;
+  background-color: hsl(221, 100%, 90%);
+}
